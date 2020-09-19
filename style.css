@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;700&display=swap');
+
+/*cv*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1a9fe1;
+}
+
+.width-1200 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+
+.header-cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.header-cv__avatar-wrap {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-cv__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-cv__name {
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.header-cv__occupation {
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+}
+
+@media(max-width:767px) {
+    .header-cv__avatar-wrap {
+        width: 100px;
+        min-width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+    .header-cv__name {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .header-cv__occupation {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+
+/*main-content*/
+
+.cv-content__text {
+    font-size: 20px;
+}
+
+.cv-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.cv-content__item {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cv-content__item.cv-content__item--small {
+    width: 50%;
+}
+
+.cv-content__list-item-icon {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    fill: #1a9fe1;
+}
+
+.cv-content__item-list--skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cv-content__item-list--skills .cv-content__item-list-item {
+    width: 50%;
+}
+
+.cv-content__item-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cv-content__list-item-link {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.cv-content__list-item-marker {
+    width: 10px;
+    min-width: 10px;
+    margin-right: 10px;
+}
+
+.cv-content__list-item-text {
+    padding-top: 9px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.cv-content__text--education {
+    line-height: 20px;
+}
+
+.cv-content__text--bold {
+    font-weight: 700;
+}
+
+.cv-content__text--big-red {
+    font-size: 50px;
+    line-height: 50px;
+    color: rgb(189, 25, 25);
+}
+
+@media(max-width:767px) {
+    .cv-content__text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .cv-content__item.cv-content__item--small {
+        width: 100%;
+    }
+    .cv-content__list-item-link {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .cv-content__list-item-text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .cv-content__text--big-red {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+
+/*footer*/
+
+.cv__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.cv__footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.cv__footer-list-item {
+    display: flex;
+    margin-right: 10px;
+}
+
+.cv__footer-list-item-link {
+    display: flex;
+    border-radius: 50%;
+}
+
+.cv__footer-list-item-link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cv__footer-list-item-link-icon {
+    fill: #fff;
+}
