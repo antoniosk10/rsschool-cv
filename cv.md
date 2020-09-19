@@ -6,7 +6,8 @@ Anton Skorobogaty
 * **Phone (Telegram,Viber)** : +375293052647
 * **Email** : antoniosk10@gmail.com
 * **LinkedIn** : https://www.linkedin.com/in/anton-skorobogaty-521ab9190/
-###  About me
+
+### About me
 ---
 I'm frontend developer with 1 year of experience in IT. I very love frontend and I want to develop in this direction.I am a hard-working and responsible worker.
 ### Skills
